@@ -1,0 +1,136 @@
+@media (max-width: 1219px){
+     
+
+
+    #navbar .navlogo {
+        width: 53%;
+        margin: auto;
+        height: 435px;
+    }
+
+
+    #navbar .toggal{
+        display: flex;
+        z-index: 10;
+    }
+
+
+    #navbar .navlinks .close{
+        display: block;
+    }
+
+     /* navbar ki style ho raha hai */
+
+     #navbar .navlink{
+        position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+     }
+
+     #navbar .navlinks{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         max-width: 576px;
+         height: 100vh;
+         z-index: 11;
+         background-color: #020202;
+         transform: translateX(-780px);
+         transition: all 0.7s;
+         
+         /* display: none; */
+     }
+
+     #navbar .active{
+         transform: translateX(0px);
+     }
+
+     #navbar .navlink .navlinks ul{
+         flex-direction: column;
+         display: block;
+         
+     }
+
+     #navbar .navlink .navlinks ul li{
+        margin: 56px 0;
+        box-shadow: none;
+     }
+
+     #navbar .navlink .navlinks ul li a{
+         display: block;
+         text-align: center;
+         font-size: 2.4rem;
+         color: rgb(0, 150, 0);
+     }
+
+
+
+     #navbar .navlink .callcon{
+         position: absolute;
+         top: 10px;
+         right: 0;
+     }
+
+
+
+     /* footers ki mobile resposive */
+
+
+
+     footer{
+         height: 100%;
+     }
+
+     #footers{
+         flex-direction: column;
+         align-items: center;
+     }
+} 
+
+
+@media (max-width: 706px){
+
+
+    #navbar .toggal {
+        top: 310px;
+        left: 174px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #navbar .navlogo {
+        width: 100%;
+    }
+
+    #pofferlist .pbox-1{
+        grid-template-columns: repeat(1, auto);
+        row-gap: 2rem;
+    }
+
+    #pofferlist .pbox-2{
+        grid-template-columns: repeat(1, auto);
+        row-gap: 2rem;
+    }
+
+
+    /* fotter ki  */
+
+    #footers .addmap{
+        width: 300px;
+        
+    }
+    #footers .addmap iframe{
+        width: 300px;
+        
+    }
+    #footers .conect{
+        width: 300px;
+        
+    }
+    #footers .address{
+        width: 300px;
+        
+    }
+}

@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+
+
+
+/* utility classes */
+
+.allbtn{
+    padding: 16px 33px;
+    font-size: 21px;
+    background: rgba(0, 255, 255, 0.809);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+}
+
+.h-pramry{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-pramry h3{
+  
+    font-family: monospace;
+    font-size: 26px;
+
+}
+
+
+
+/* end of class */
+
+
+#slider
+{
+    width: 90%;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+
+#slider .slidmain
+{
+    position: relative;
+    width: 300%;
+    height: 700px;
+    left: 0;
+    display: flex;
+    animation: slid 7s infinite;
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: backwards; */
+
+}
+
+@keyframes slid {
+        
+    0%{
+        left: 0;
+    }
+    20%{
+         left: 0;
+    }
+    25%{
+          left: 0;
+    }
+
+    33%{
+        left: 0;
+    }
+    40%{
+        left: -100%;
+    }
+    45%{
+          left: -100%;
+    }
+
+    66%{
+        left: -100%;
+    }
+
+    70%{
+         left: -200%;
+    }
+    75%{
+         left: -200%;
+    }
+
+    100%{
+         left: -200%;
+    }
+}
+
+
+
+
+
+
+
+
+#slider .slidmain .slidbox
+{
+    position: relative;
+    margin: 10px 2px;
+    width: 33.3%;
+    background-color: blue;
+    height: 100%;
+
+
+}
+#slider .slidmain .slidbox
+{
+    position: relative;
+    margin: 10px 2px;
+    width: 33.3%;
+    background-color: blue;
+    height: 100%;
+
+
+}
+
+#slider .slidmain .slidbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slider .slidmain .slidbox1 .slbox{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    /* background-color: rgb(0, 0, 0); */
+    top: 20px;
+    left: 34%;
+    
+}
+
+
+
+
+
+
+#slider .slidmain .slidbox1 .slbox h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-family: -webkit-pictograph;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+}
+
+#slider .slidmain .slidbox1 .slbox h3{
+
+    color: #dc4cb6;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 4rem;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 0px;
+
+}
+
+#slider .slidmain .slidbox1 .slbox p{
+   
+    color: rgba(255, 255, 255, 0.919);
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin-top: 22px;
+}
+
+
+#slider .slidmain .slidbox1 .slbox button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 16px 33px;
+    font-size: 21px;
+    background: rgba(0, 255, 255, 0.809);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+         /* box 2 */
+
+
+         #slider .slidmain .slidbox2 .slbox2{
+            position: absolute;
+            width: 700px;
+            height: 600px;
+            /* background-color: rgb(0, 0, 0); */
+            top: 20px;
+            left: 50%;
+            
+        }         
+
+        #slider .slidmain .slidbox2 .slbox2 h1{
+            color: white;
+            font-size: 4rem;
+            font-family: -webkit-pictograph;
+            word-spacing: 15px;
+            letter-spacing: 8px;
+        }
+        
+        #slider .slidmain .slidbox2 .slbox2 h3{
+        
+            color: #dc4cb6;
+            font-family: -webkit-pictograph;
+            font-size: 3rem;
+            word-spacing: 3px;
+            letter-spacing: 0px;
+             
+
+        
+        }
+        
+        #slider .slidmain .slidbox2 .slbox2 p{
+           
+            color: rgba(255, 255, 255, 0.919);
+            font-size: 1.4rem;
+            font-family: sans-serif;
+            margin-top: 22px;
+        }
+
+
+
+
+
+
+
+        /* product offer ki style  */
+
+
+
+
+
+
+        #poffer
+        {
+            width: 90%;
+            /* height: 100vh; */
+            box-sizing: border-box;
+            margin-top: 30px;
+        }
+
+        #pofferlist
+        {
+          width: 100%;
+          height: 100%;
+          display: grid;
+          grid-template-rows: repeat(2, auto);
+          grid-gap: 2rem;
+        }
+
+        #pofferlist .pbox-1
+        {
+         display: grid;
+         grid-template-columns: repeat(3, auto);
+         column-gap: 2rem;
+        }
+
+        #pofferlist .pbox-1 .pofferbox1
+        {
+          background-color: grey;
+        }
+
+        #pofferlist .pbox-1 .pofferbox1 img{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            /* object-fit: cover; */
+        }
+
+        #pofferlist .pbox-2
+        {
+         display: grid;
+         grid-template-columns: repeat(2, auto);
+         column-gap: 2rem;
+        }
+
+
+        #pofferlist .pbox-2 .pofferbox2
+        {
+            background-color: grey;
+        }
+
+        #pofferlist .pbox-2 .pofferbox2 img{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            /* object-fit: cover; */
+        }
+
+
+
+
+
+        /* product ki style */
+
+        #product{
+            margin-top: 30px;
+            width: 90%;
+            overflow: hidden;
+        }
+
+
+        #productlist
+        {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+        }
+
+        #productlist .produt
+        {
+            width: 328px;
+            height: 600px;
+        }
+
+        #productlist .produt .pimg
+        {
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid green; */
+            position: relative;
+        }
+
+        #productlist .produt .prodbox1 span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            color: #ffffff;
+            background: #e0c4a9;
+        }
+
+        #productlist .produt .prodbox1 img{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+
+        #productlist .produt .prodbox2 h3{
+            text-align: center;
+        }
+
+        #productlist .produt .prodbox2 h3 a{
+            text-decoration: none;
+            text-align: center;
+           font-size: 1.5rem;
+           color: #0000007d;
+           font-family: 'MonteCarlo';
+        }
+
+        #productlist .produt .prodbox2 h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        #productlist .produt .prodbox2 button{
+            width: 100%;
+            margin: 30px auto;
+            padding: 23px;
+            border: navajowhite;
+            background: turquoise;
+            border-radius: 2px 39px 2px 28px;
+            border: 2px solid rgb(3, 255, 221);
+            transform: translateY(59px);
+            opacity: 0;
+            transition: 0.3s;
+
+        }
+
+        #productlist .produt .prodbox2:hover button{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        #productlist .produt .prodbox2 button a{
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: crimson;
+            font-weight: bold;
+
+        }
+
+
+
+
+
+
+   
+
+       
