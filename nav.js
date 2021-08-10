@@ -19,6 +19,8 @@ close.addEventListener('click', ()=>{
 });
 
 
+
+
 const prodata = document.querySelectorAll(".prodbox2");
 
      for(i = 0; i < prodata.length; i++){
@@ -27,5 +29,12 @@ const prodata = document.querySelectorAll(".prodbox2");
 
 
 }
+
+
+
+
+
+
+
 
 
